@@ -1,0 +1,208 @@
+*{
+  background-color:white;
+}
+
+.form-control {
+  width: 350px;
+}
+#submit-btn {
+  margin-top: 25px;
+}
+
+.error-icon {
+  display: none;
+}
+
+.info-icon {
+  cursor: pointer;
+  transition: 3s;
+  position: relative;
+  top: 12px;
+  right: 25px;
+  width:16px;
+  height:16px;
+
+}
+
+.input {
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
+.message {
+  display: none;
+}
+
+.info-icon:hover .message {
+  display: block;
+  transition: 3s;
+}
+
+.q-message {
+  display: none;
+}
+
+.question-info {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.question-info:hover .q-message {
+  display: block;
+  transition: 3s;
+}
+
+.q-message {
+  position: relative;
+  width: auto;
+  background: white;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  left: 25px;
+  padding: 10px;
+  z-index: 1;
+}
+
+#grossIncomeError,
+#extraIncomeError,
+#deductionsError {
+  display: none;
+  transition: 3s;
+}
+.box {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.error-icon {
+  font-size: small;
+  color: red;
+  margin-left: 10px;
+}
+
+span.message {
+  position: absolute;
+  width: 150px;
+  background: white;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  left: 25px;
+  padding: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+select {
+  background-position: right 0.7em top 50%, 0 0 !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center; 
+}
+.box {
+  border-radius:  2px solid black;
+  border: 5px;
+}
+.heading{
+  color: rgba(36, 78, 33, 0.968);
+}
+
+.line{
+  color: 5px solid black;
+  height: 5px;
+}
+
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr::after {
+  background: #fff;
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+
+/* modal content css */
+
+.modal-content {
+  background-color: rgba(248, 249, 250, 0.2);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  padding: 20px; /* Add padding to the body */
+}
+
+.modal-title {
+  color: #007bff; /* Change title color */
+}
+
+.close {
+  color: #6c757d; /* Change close button color */
+  font-size: 28px; /* Adjust close button size */
+}
+
+.close:hover {
+  color: #007bff; /* Change close button color on hover */
+}
+
+
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  opacity: 0.8;
+
+
+
+}
+
+.modal-content {
+  background-color: rgb(236, 232, 232);
+  border: 2px solid #A4B3BF;
+
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+  background-color: rgb(236, 232, 232);
+
+
+}
